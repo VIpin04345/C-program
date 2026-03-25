@@ -64,3 +64,13 @@ printf("enter your string:");
 scanf("%s", s);
 printf("your string is : %s", s);
 }
+
+# include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    printf("Enter a number :");
+    scanf("%d", &a);
+    printf("Square is : %d", a * a);
+
+}
