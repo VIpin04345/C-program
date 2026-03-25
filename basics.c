@@ -31,3 +31,20 @@ int main(){
     char shubh[]= "shubham yadav";
     printf("%s", shubh);
 }
+
+
+
+# include<stdio.h>
+#include<conio.h>
+void main(){
+    int a = 12;
+    char s[] = "shubham yadav";
+    char t = 'A';
+    float b = 21.2;
+    double c = 3.2345;
+    printf("%d \n", a );
+    printf("%s \n", s);
+    printf("%f \n", b);
+    printf("%lf \n", c);
+    printf("%c", t);
+}
