@@ -48,3 +48,19 @@ void main(){
     printf("%lf \n", c);
     printf("%c", t);
 }
+
+
+# include<stdio.h>
+# include<conio.h>
+void main(){
+//     int a,b,sum;
+//     printf("Enter two numbers:");
+//     scanf("%d %d", &a, &b);
+//     sum = a + b;
+//     printf("Sum= %d", sum);
+
+char s[5];
+printf("enter your string:");
+scanf("%s", s);
+printf("your string is : %s", s);
+}
