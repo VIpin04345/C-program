@@ -21,3 +21,13 @@ void main(){
     printf("%d",a);
     printf("%d", b);
 }
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    char shubh[]= "shubham yadav";
+    printf("%s", shubh);
+}
