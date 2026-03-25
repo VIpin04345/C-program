@@ -91,4 +91,3 @@ void main(){
     d = (a + b + c) / 3;
     printf("Your avernumber is : %d", d);
 }
-
