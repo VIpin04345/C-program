@@ -129,3 +129,39 @@ void main(){
     c = 2 * 3.14 * r;
     printf("%f \n", c);
 }
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    double r;
+    double a;
+    double c;
+    printf("enter your radius");
+    scanf("%lf", &r);
+    a = 3.14 * r * r;
+    printf("%f \n", a);
+    c = 2 * 3.14 * r;
+    printf("%f \n", c);
+}
+
+
+
+#include<stdio.h>
+
+int main(){
+    int number = 19;
+    printf("enter number");
+    scanf("%d", &number);
+    if (number>18){
+        printf("adult\n");
+    }
+    else{
+        printf("not adult \n");
+    }
+    printf("thank you");
+    return 0;
+}
+
