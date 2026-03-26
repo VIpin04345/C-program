@@ -91,3 +91,16 @@ void main(){
     d = (a + b + c) / 3;
     printf("Your avernumber is : %d", d);
 }
+
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    int z;
+    printf("enter a nummber");
+    scanf("%d", &a);
+    printf("add value two:%d \n", a + 2);
+    printf("multiply value five:%d \n", a * 2);
+    printf("reminder value three:%d \n", a % 2);
+}
