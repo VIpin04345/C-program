@@ -211,3 +211,21 @@ int main(){
     }
 }
 
+
+
+Write a C program to check whether a number is even or odd.
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int number;
+    printf("enter your number:-");
+    scanf("%d", &number);
+    if (number%2==0){
+        printf("is a even number \n");
+    }
+    else{
+        printf("is odd number ");
+    }
+    return 0;
+}
