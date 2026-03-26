@@ -104,3 +104,13 @@ void main(){
     printf("multiply value five:%d \n", a * 2);
     printf("reminder value three:%d \n", a % 2);
 }
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    printf("enter a number:");
+    scanf("%d", &a);
+    printf("%d \n", a++);
+    printf("%d", ++a);
+}
