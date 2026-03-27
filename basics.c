@@ -285,3 +285,18 @@ int main(){
         printf("%d is not a leap year \n", year);
     }
 }
+
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int age;
+    printf("enter your agge:-");
+    scanf("%d", &age);
+    if (age<18){
+        printf("you are not eligible for vote.");
+    }
+    else{
+        printf("you are eligible for vote.");
+    }
+}
