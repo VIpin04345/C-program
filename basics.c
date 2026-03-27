@@ -229,3 +229,20 @@ int main(){
     }
     return 0;
 }
+
+
+#include<stdio.h>
+int main(){
+    int a , b;
+    printf("enter your first number:-");
+    scanf("%d", &a);
+    printf("enter your second number:-");
+    scanf("%d", &b);
+    if (a>b){
+        printf("a is grater then b %d \n", a);
+    }
+    else{
+        printf("b is grater then a %d \n", b);
+    }
+    return 0;
+}
