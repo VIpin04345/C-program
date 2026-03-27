@@ -271,3 +271,17 @@ int main(){
     }
     return 0;
 }
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int year;
+    printf("enter your yaer:-");
+    scanf("%d", &year);
+    if (year%4==0 && year%50!=0 || year%400==0){
+        printf("%d is a leap year \n",year);
+    }
+    else{
+        printf("%d is not a leap year \n", year);
+    }
+}
