@@ -300,3 +300,34 @@ int main(){
         printf("you are eligible for vote.");
     }
 }
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int a, b;
+    char op;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    printf("enter the value of b");
+    scanf("%d", &b);
+    printf("enter your operator");
+    scanf(" %c", &op);
+    switch (op){
+        case '+':
+            printf("%d  \n", a + b);
+        break;
+        case '-':
+            printf("%d \n", a - b);
+            break;
+        case '*':
+            printf("%d \n", a * b);
+            break;
+        case '/':
+            printf("%d \n", a / b);
+            break;
+        default:
+            printf("invalid operator");
+    }
+    return 0;
