@@ -246,3 +246,28 @@ int main(){
     }
     return 0;
 }
+
+
+#include<stdio.h>
+int main(){
+    int a, b, c;
+    printf("enter your first number:-");
+    scanf("%d", &a);
+    printf("enter your second number:-");
+    scanf("%d", &b);
+    printf("enter your third number :-");
+    scanf("%d", &c);
+    if(a>b && a>c){
+        printf("%d is grater then %d and %d \n",a,b,c);
+    }
+    else if(b>a && b>c){
+        printf("%d is frater then %d and %d \n", b, a, c);
+    }
+    else if(c>a && c>b){
+        printf("%d is grater then %d and %d \n", c, a, b);
+    }
+    else{
+        printf("enter a valid number");
+    }
+    return 0;
+}
