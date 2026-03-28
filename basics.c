@@ -435,3 +435,12 @@ int main(){
         printf("%d \n", i);
     }
 }
+
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    for (char s = 'a'; s <= 'z';s++){
+        printf("%c \n", s);
+    }
+}
