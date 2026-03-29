@@ -520,3 +520,14 @@ int main(){
         }
     }
 }
+
+# write a program in c to find sum of numbers between one to ten.
+
+#include<stdio.h>
+int main(){
+    int sum = 0;
+    for (int i = 1; i <= 5;i++){
+        sum += i;
+    }
+    printf("%d \n", sum);
+}
