@@ -493,3 +493,18 @@ int main(){
         i++;
     }
 }
+
+
+# write a program in c to display between one to hundred in odd value.
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int i = 1;
+    while(i<=50){
+        if (i%2!=0){
+            printf("%d \n", i);
+        }
+        i++;
+    }
+}
