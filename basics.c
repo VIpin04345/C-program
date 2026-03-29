@@ -534,16 +534,16 @@ int main(){
 
 
 
-// #include<stdio.h>
-// int main(){
-//     int sum = 0;
-//     int i = 1;
-//     while(i<=5){
-//         sum += i;
-//         i += 1;
-//     }
-//     printf("%d \n", sum);
-// }
+#include<stdio.h>
+int main(){
+    int sum = 0;
+    int i = 1;
+    while(i<=5){
+        sum += i;
+        i += 1;
+    }
+    printf("%d \n", sum);
+}
 
 // # write a program to print from 1 to 50.
 
