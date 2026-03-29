@@ -472,3 +472,15 @@ int main(){
     }
     
 }
+
+
+# write a program in c to display even numbers between five to fifteen.
+
+#include<stdio.h>
+int main(){
+    for (int i = 5; i < 15; i++)
+    {
+        printf("%d\n", i);
+    }
+    
+}
