@@ -531,3 +531,35 @@ int main(){
     }
     printf("%d \n", sum);
 }
+
+
+
+// #include<stdio.h>
+// int main(){
+//     int sum = 0;
+//     int i = 1;
+//     while(i<=5){
+//         sum += i;
+//         i += 1;
+//     }
+//     printf("%d \n", sum);
+// }
+
+// # write a program to print from 1 to 50.
+
+// #include<stdio.h>
+// int main(){
+//     int i = 1;
+//     while(i<=50){
+//         printf("%d\n", i);
+//         i++;
+//     }
+// }
+
+// #include<stdio.h>
+// int main(){
+//     for (int i = 1; i <= 50;i++){
+//         printf("%d\n", i);
+//     }
+// }
+
