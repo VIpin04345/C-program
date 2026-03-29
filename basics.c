@@ -545,16 +545,16 @@ int main(){
     printf("%d \n", sum);
 }
 
-// # write a program to print from 1 to 50.
+# write a program to print from 1 to 50.
 
-// #include<stdio.h>
-// int main(){
-//     int i = 1;
-//     while(i<=50){
-//         printf("%d\n", i);
-//         i++;
-//     }
-// }
+#include<stdio.h>
+int main(){
+    int i = 1;
+    while(i<=50){
+        printf("%d\n", i);
+        i++;
+    }
+}
 
 // #include<stdio.h>
 // int main(){
