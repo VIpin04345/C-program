@@ -98,6 +98,23 @@ void main(){
     printf("Your avernumber is : %d", d);
 }
 
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    printf("enter your first number: ");
+    scanf("%d", &a);
+    int b;
+    printf("enter your secont number:");
+    scanf("%d", &b);
+    int c;
+    printf("enter your third number:");
+    scanf("%d", &c);
+    int d;
+    d = (a + b + c) / 3;
+    printf("Your avernumber is : %d", d);
+}
+
 
 #include<stdio.h>
 #include<conio.h>
