@@ -31,6 +31,24 @@ int main(){
 
 
 
+#include<stdint.h>
+#include<conio.h>
+void main(){
+    int a = 12;
+    int b = 13;
+    printf("%d",a);
+    printf("%d", b);
+}
+
+# include<stdio.h>
+int main(){
+    for (int i = 1; i <= 5; i=i+1) {
+        printf("hello world \n");
+    }
+}
+
+
+
 #include<stdio.h>
 #include<conio.h>
 int main(){
