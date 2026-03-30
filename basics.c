@@ -482,6 +482,18 @@ int main(){
 
 #include<stdio.h>
 int main(){
+    int i=1;
+    while (i<=5)
+    {
+        printf("hello world \n");
+        i++;
+    }
+    
+}
+
+
+#include<stdio.h>
+int main(){
     for (int i = 50; i >= 1;i--){
         printf("%d \n", i);
     }
