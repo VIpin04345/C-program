@@ -731,20 +731,20 @@ int main(){
 
 // # write a program in c  to print sum of squre of 1 to n natural numbers.
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// int main(){
-//     int n;
-//     int sum = 0;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     for (int i = 1; i <= n;i++){
-//         sum =sum+ pow(i, 2);
-//     }
-//     printf("%d \n", sum);
-//     return 0;
-// }
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(){
+    int n;
+    int sum = 0;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    for (int i = 1; i <= n;i++){
+        sum =sum+ pow(i, 2);
+    }
+    printf("%d \n", sum);
+    return 0;
+}
 
 // #include<stdio.h>
 // #include<math.h>
