@@ -715,18 +715,18 @@ int main(){
 }
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-//     int sum = 0;
-//     int n;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     for (int i = 1; i <= n;i++){
-//         sum += i;
-//     }
-//     printf("%d\n", sum);
-// }
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int sum = 0;
+    int n;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    for (int i = 1; i <= n;i++){
+        sum += i;
+    }
+    printf("%d\n", sum);
+}
 
 
 // # write a program in c  to print sum of squre of 1 to n natural numbers.
