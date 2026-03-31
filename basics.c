@@ -663,18 +663,18 @@ int main(){
 
 // # write a program to print from 1 to n.
 
-// #include<stdio.h>
-// int main(){
-//     int n;
-//     int i = 1;
-//     printf("enter your number:-");
-//     scanf("%d", &n);
-//     while(i<=n){
-//         printf("%d \n", i);
-//         i++;
-//     }
+#include<stdio.h>
+int main(){
+    int n;
+    int i = 1;
+    printf("enter your number:-");
+    scanf("%d", &n);
+    while(i<=n){
+        printf("%d \n", i);
+        i++;
+    }
 
-// }
+}
 
 
 // #include<stdio.h>
