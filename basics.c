@@ -701,18 +701,18 @@ int main(){
 
 // # write a program to print sum of n to 1.
 
-// #include<stdio.h>
-// int main(){
-//     int sum=0;
-//     int n;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     while(n>=1){
-//         sum += n;
-//         n--;
-//     }
-//     printf("%d\n", sum);
-// }
+#include<stdio.h>
+int main(){
+    int sum=0;
+    int n;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    while(n>=1){
+        sum += n;
+        n--;
+    }
+    printf("%d\n", sum);
+}
 
 
 // #include<stdio.h>
