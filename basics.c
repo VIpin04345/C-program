@@ -746,19 +746,19 @@ int main(){
     return 0;
 }
 
-// #include<stdio.h>
-// #include<math.h>
-// int main(){
-//     int n;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     int sum = 0;
-//     for (int i = 1; i <= n;i++){
+#include<stdio.h>
+#include<math.h>
+int main(){
+    int n;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    int sum = 0;
+    for (int i = 1; i <= n;i++){
 
-//         sum = sum + (i * i * i);
-//     }
-//     printf("%d\n", sum);
-// }
+        sum = sum + (i * i * i);
+    }
+    printf("%d\n", sum);
+}
 
 #include<stdio.h>
 #include<math.h>
