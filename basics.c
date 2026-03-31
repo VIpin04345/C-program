@@ -657,3 +657,142 @@ int main(){
     }
 }
 
+
+
+
+
+// # write a program to print from 1 to n.
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     int i = 1;
+//     printf("enter your number:-");
+//     scanf("%d", &n);
+//     while(i<=n){
+//         printf("%d \n", i);
+//         i++;
+//     }
+
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     for (int i = 1; i <= n;i++){
+//         printf("%d\n", i);
+//     }
+// }
+
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     for (int i = 1; i <= 5;i++){
+//         printf("%d\n", n * i);
+//     }
+// }
+
+
+// # write a program to print sum of n to 1.
+
+// #include<stdio.h>
+// int main(){
+//     int sum=0;
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     while(n>=1){
+//         sum += n;
+//         n--;
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int sum = 0;
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     for (int i = 1; i <= n;i++){
+//         sum += i;
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+// # write a program in c  to print sum of squre of 1 to n natural numbers.
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     int sum = 0;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     for (int i = 1; i <= n;i++){
+//         sum =sum+ pow(i, 2);
+//     }
+//     printf("%d \n", sum);
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     int sum = 0;
+//     for (int i = 1; i <= n;i++){
+
+//         sum = sum + (i * i * i);
+//     }
+//     printf("%d\n", sum);
+// }
+
+// #include<stdio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     int sum = 0;
+//     for (int i = 1; i <= n;i++){
+
+//         sum = sum + pow(i,3);
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+
+
+// # write a program to print only even number between 1 to n.
+
+// #include<stdio.h>
+// int main(){
+//     int n;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     int i = 1;
+//     while(i<=n){
+//         if(i%2==0){
+//             printf("%d\n", i);
+//         }
+//         i++;
+//     }
+// }
+
+
+
+
