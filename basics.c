@@ -688,15 +688,15 @@ int main(){
 }
 
 
-// #include<stdio.h>
-// int main(){
-//     int n;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     for (int i = 1; i <= 5;i++){
-//         printf("%d\n", n * i);
-//     }
-// }
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    for (int i = 1; i <= 5;i++){
+        printf("%d\n", n * i);
+    }
+}
 
 
 // # write a program to print sum of n to 1.
