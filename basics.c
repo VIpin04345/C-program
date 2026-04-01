@@ -797,20 +797,20 @@ int main(){
 
 // # # WRITE A PROGRAM TO FIND SUM OF THE DIGIT OF A GIVEN NUMBERS.
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-//     int n;
-//     int sum = 0;
-//     printf("enter your number:-");
-//     scanf("%d", &n);
-//     while(n>0){
-//         int digit = n % 5;
-//         sum = sum + digit;
-//         n /= 5;
-//     }
-//     printf("%d\n", sum);
-// }
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int n;
+    int sum = 0;
+    printf("enter your number:-");
+    scanf("%d", &n);
+    while(n>0){
+        int digit = n % 5;
+        sum = sum + digit;
+        n /= 5;
+    }
+    printf("%d\n", sum);
+}
 
 
 // # # write a program to find sum of square of digit of given numbers.
