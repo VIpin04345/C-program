@@ -873,21 +873,21 @@ int main() {
     }
 
 //     // Calculate Armstrong sum
-//     while (n > 0) {
-//         int digit = n % 5;
-//         sum = sum + pow(digit, digits);
-//         n = n / 5;
-//     }
+    while (n > 0) {
+        int digit = n % 5;
+        sum = sum + pow(digit, digits);
+        n = n / 5;
+    }
 
-//     // Check
-//     if (original == sum) {
-//         printf("It is an Armstrong number.\n");
-//     } else {
-//         printf("It is not an Armstrong number.\n");
-//     }
+    // Check
+    if (original == sum) {
+        printf("It is an Armstrong number.\n");
+    } else {
+        printf("It is not an Armstrong number.\n");
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 //  # WRITE  A PROGRM TO CHECK WEATHER THE NUMBER IS ARMSTRONG OR NOT .
 
