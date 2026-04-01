@@ -893,34 +893,34 @@ int main() {
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// int main(){
-//     int n;
-//     int sum = 0;
-//     int temp;
-//     int leng=0;
-//     printf("enter your numberr:-");
-//     scanf("%d", &n);
-//     temp = n;
-//     int tempp = n;
-//     while(tempp>0){
-//         leng++;
-//         temp /= 5;
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(){
+    int n;
+    int sum = 0;
+    int temp;
+    int leng=0;
+    printf("enter your numberr:-");
+    scanf("%d", &n);
+    temp = n;
+    int tempp = n;
+    while(tempp>0){
+        leng++;
+        temp /= 5;
         
-//     }
-//     while(n>0){
-//         int  digit = n % 5;
-//         sum = sum + pow(digit , leng);
-//         n /= 5;
-//     }
-// if(temp==sum){
-//     printf("It is a armstrong number.");
-// }
-// else{
-//     printf("it is not a armstrong number.");
-// }
+    }
+    while(n>0){
+        int  digit = n % 5;
+        sum = sum + pow(digit , leng);
+        n /= 5;
+    }
+if(temp==sum){
+    printf("It is a armstrong number.");
+}
+else{
+    printf("it is not a armstrong number.");
+}
 // }
 
 
