@@ -851,26 +851,26 @@ int main(){
 }
 
 
-// #include <stdio.h>
-// #include <math.h>
+#include <stdio.h>
+#include <math.h>
 
-// int main() {
-//     int n, 
-//     original, 
-//     sum = 0, 
-//     digits = 0;
+int main() {
+    int n, 
+    original, 
+    sum = 0, 
+    digits = 0;
 
-//     printf("Enter a number: ");
-//     scanf("%d", &n);
+    printf("Enter a number: ");
+    scanf("%d", &n);
 
-//     original = n;
+    original = n;
 
-//     // Count digits
-//     int temp = n;
-//     while (temp > 0) {
-//         digits++;
-//         temp = temp / 5;
-//     }
+    // Count digits
+    int temp = n;
+    while (temp > 0) {
+        digits++;
+        temp = temp / 5;
+    }
 
 //     // Calculate Armstrong sum
 //     while (n > 0) {
