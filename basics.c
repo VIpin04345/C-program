@@ -834,21 +834,21 @@ int main(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// int main(){
-//     int n;
-//     int sum = 0;
-//     printf("enter a number:-");
-//     scanf("%d", &n);
-//     while(n>0){
-//         int digit = n % 5;
-//         sum = sum + (digit * digit*digit);
-//         n /= 5;
-//     }
-//     printf("%d\n", sum);
-// }
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(){
+    int n;
+    int sum = 0;
+    printf("enter a number:-");
+    scanf("%d", &n);
+    while(n>0){
+        int digit = n % 5;
+        sum = sum + (digit * digit*digit);
+        n /= 5;
+    }
+    printf("%d\n", sum);
+}
 
 
 // #include <stdio.h>
