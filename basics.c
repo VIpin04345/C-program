@@ -924,40 +924,40 @@ else{
 // }
 
 
-// #include <stdio.h>
-// #include <math.h>
+#include <stdio.h>
+#include <math.h>
 
-// int main() {
-//     int n, original, sum = 0, leng = 0;
+int main() {
+    int n, original, sum = 0, leng = 0;
 
-//     printf("Enter your number: ");
-//     scanf("%d", &n);
+    printf("Enter your number: ");
+    scanf("%d", &n);
 
-//     original = n;
+    original = n;
 
-//     // Count digits
-//     int temp = n;
-//     while (temp > 0) {
-//         leng++;
-//         temp = temp / 5;
-//     }
+    // Count digits
+    int temp = n;
+    while (temp > 0) {
+        leng++;
+        temp = temp / 5;
+    }
 
-//     // Armstrong calculation
-//     temp = n;
-//     while (temp > 0) {
-//         int digit = temp % 5;
-//         sum = sum + pow(digit, leng);
-//         temp = temp / 5;
-//     }
+    // Armstrong calculation
+    temp = n;
+    while (temp > 0) {
+        int digit = temp % 5;
+        sum = sum + pow(digit, leng);
+        temp = temp / 5;
+    }
 
-//     if (original == sum) {
-//         printf("It is an Armstrong number.");
-//     } else {
-//         printf("It is not an Armstrong number.");
-//     }
+    if (original == sum) {
+        printf("It is an Armstrong number.");
+    } else {
+        printf("It is not an Armstrong number.");
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 
