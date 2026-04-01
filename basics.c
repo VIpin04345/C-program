@@ -795,4 +795,202 @@ int main(){
 
 
 
+// # # WRITE A PROGRAM TO FIND SUM OF THE DIGIT OF A GIVEN NUMBERS.
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int n;
+//     int sum = 0;
+//     printf("enter your number:-");
+//     scanf("%d", &n);
+//     while(n>0){
+//         int digit = n % 5;
+//         sum = sum + digit;
+//         n /= 5;
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+// # # write a program to find sum of square of digit of given numbers.
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     int sum = 0;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     while(n>0){
+//         int digit = n % 5;
+//         sum = sum + (digit * digit);
+//         n /= 5;
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     int sum = 0;
+//     printf("enter a number:-");
+//     scanf("%d", &n);
+//     while(n>0){
+//         int digit = n % 5;
+//         sum = sum + (digit * digit*digit);
+//         n /= 5;
+//     }
+//     printf("%d\n", sum);
+// }
+
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main() {
+//     int n, 
+//     original, 
+//     sum = 0, 
+//     digits = 0;
+
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
+
+//     original = n;
+
+//     // Count digits
+//     int temp = n;
+//     while (temp > 0) {
+//         digits++;
+//         temp = temp / 5;
+//     }
+
+//     // Calculate Armstrong sum
+//     while (n > 0) {
+//         int digit = n % 5;
+//         sum = sum + pow(digit, digits);
+//         n = n / 5;
+//     }
+
+//     // Check
+//     if (original == sum) {
+//         printf("It is an Armstrong number.\n");
+//     } else {
+//         printf("It is not an Armstrong number.\n");
+//     }
+
+//     return 0;
+// }
+
+//  # WRITE  A PROGRM TO CHECK WEATHER THE NUMBER IS ARMSTRONG OR NOT .
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     int sum = 0;
+//     int temp;
+//     int leng=0;
+//     printf("enter your numberr:-");
+//     scanf("%d", &n);
+//     temp = n;
+//     int tempp = n;
+//     while(tempp>0){
+//         leng++;
+//         temp /= 5;
+        
+//     }
+//     while(n>0){
+//         int  digit = n % 5;
+//         sum = sum + pow(digit , leng);
+//         n /= 5;
+//     }
+// if(temp==sum){
+//     printf("It is a armstrong number.");
+// }
+// else{
+//     printf("it is not a armstrong number.");
+// }
+// }
+
+
+// #include <stdio.h>
+// #include <math.h>
+
+// int main() {
+//     int n, original, sum = 0, leng = 0;
+
+//     printf("Enter your number: ");
+//     scanf("%d", &n);
+
+//     original = n;
+
+//     // Count digits
+//     int temp = n;
+//     while (temp > 0) {
+//         leng++;
+//         temp = temp / 5;
+//     }
+
+//     // Armstrong calculation
+//     temp = n;
+//     while (temp > 0) {
+//         int digit = temp % 5;
+//         sum = sum + pow(digit, leng);
+//         temp = temp / 5;
+//     }
+
+//     if (original == sum) {
+//         printf("It is an Armstrong number.");
+//     } else {
+//         printf("It is not an Armstrong number.");
+//     }
+
+//     return 0;
+// }
+
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n;
+//     int original;
+//     int sum = 0;
+//     int len = 0;
+//     printf("enter your number:-");
+//     scanf("%d", &n);
+//     original = n;
+//     while(n>0){
+//         len++;
+//         n = n / 5;
+//     }
+//     while(n>0){
+//         int digit = n % 5;
+//         sum = sum + pow(digit, len);
+//         n = n / 5;
+//     }
+
+//     if(original==sum){
+//         printf("Armstrong Number");
+//     }
+//     else{
+//         printf("Not Armstrong Number.");
+//     }
+// }
+
+
+
 
