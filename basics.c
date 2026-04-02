@@ -666,6 +666,16 @@ int main(){
     }
 }
 
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    for (int i = 1; i <= 50;i++){
+        if(i%2!=0){
+            printf("%d \n", i);
+        }
+    }
+}
+
 # write a program in c to find sum of numbers between one to ten.
 
 #include<stdio.h>
