@@ -578,6 +578,14 @@ int main(){
     }
     
 }
+#include<stdio.h>
+int main(){
+    for (int i = 5; i < 15; i++)
+    {
+        printf("%d\n", i);
+    }
+    
+}
 
 #include<stdio.h>
 int main(){
