@@ -1102,28 +1102,28 @@ int main(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// void printHello();
-// void printGoodbye();
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void printHello();
+void printGoodbye();
 
 
-// int main(){
-//     printHello();
-//     printHello();
-//     printGoodbye();
-//     printGoodbye();
-//     return 0;
-// }
+int main(){
+    printHello();
+    printHello();
+    printGoodbye();
+    printGoodbye();
+    return 0;
+}
 
-// void printHello(){
-//     printf("Hello \n");
-// }
+void printHello(){
+    printf("Hello \n");
+}
 
-// void printGoodbye(){
-//     printf("good bye \n");
-// }
+void printGoodbye(){
+    printf("good bye \n");
+}
 
 
 
