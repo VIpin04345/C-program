@@ -1201,23 +1201,23 @@ int main(){
 // }
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// void india();
-// void france();
-// int main(){
-//     char s;
-//     printf("enter  i for indian and f for frnace:-");
-//     scanf("%c", &s);
-//     if (s=='i'){
-//         india();
-//     }
-//     else{
-//         france();
-//     }
-//     return 0;
-// }
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void india();
+void france();
+int main(){
+    char s;
+    printf("enter  i for indian and f for frnace:-");
+    scanf("%c", &s);
+    if (s=='i'){
+        india();
+    }
+    else{
+        france();
+    }
+    return 0;
+}
 
 
 
