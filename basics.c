@@ -1172,12 +1172,12 @@ int main(){
     printCaste();
     printSum();
 
-//     return 0;
-// }
+    return 0;
+}
 
-// void printHello(){
-//     printf("hello\n");
-// }
+void printHello(){
+    printf("hello\n");
+}
 
 void printName(){
     printf("Shubham\n");
