@@ -1179,26 +1179,26 @@ int main(){
 //     printf("hello\n");
 // }
 
-// void printName(){
-//     printf("Shubham\n");
+void printName(){
+    printf("Shubham\n");
 
-// }
+}
 
-// void printCaste(){
-//     printf("Yadav\n");
-// }
+void printCaste(){
+    printf("Yadav\n");
+}
 
-// void printSum(){
-//     int a;
-//     int b;
-//     int z;
-//     printf("enter the value of a\n");
-//     scanf("%d", &a);
-//     printf("enter the value of b\n");
-//     scanf("%d", &b);
-//     z = a + b;
-//     printf("%d", z);
-// }
+void printSum(){
+    int a;
+    int b;
+    int z;
+    printf("enter the value of a\n");
+    scanf("%d", &a);
+    printf("enter the value of b\n");
+    scanf("%d", &b);
+    z = a + b;
+    printf("%d", z);
+}
 
 
 #include<stdio.h>
