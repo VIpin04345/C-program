@@ -1128,32 +1128,32 @@ void printGoodbye(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// void namaste();
-// void bonjour();
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void namaste();
+void bonjour();
 
-// int main(){
-//     char h;
-//     printf("enter i for indian and f for france:-");
-//     scanf("%c", &h);
-//     if (h=='i'){
-//         namaste();
-//     }
-//     else{
-//         bonjour();
-//     }
-//     return 0;
-// }
+int main(){
+    char h;
+    printf("enter i for indian and f for france:-");
+    scanf("%c", &h);
+    if (h=='i'){
+        namaste();
+    }
+    else{
+        bonjour();
+    }
+    return 0;
+}
 
-// void namaste(){
-//     printf("Namaste\n");
-//     bonjour();
-// }
-// void bonjour(){
-//     printf("bonjaur\n");
-// }
+void namaste(){
+    printf("Namaste\n");
+    bonjour();
+}
+void bonjour(){
+    printf("bonjaur\n");
+}
 
 
 
