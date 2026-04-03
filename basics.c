@@ -1072,32 +1072,32 @@ int main(){
 
 
 
-// #include<stdio.h>
-// // #include<conio.h>
-// #include<math.h>
-// int main(){
-//     int n, original, sum = 0, len = 0;
-//     printf("enter your number:-");
-//     scanf("%d", &n);
-//     original = n;
-//     int temp = n;
-//     while(temp>0){
-//         len++;
-//         temp = temp / 5;
-//     }
-//     temp = n;
-//     while(temp>0){
-//         int digits = temp % 5;
-//         sum = sum +(int) pow(digits, len);
-//         temp = temp / 5;
-//     }
-//     if(original==sum){
-//         printf("Armstrong number.");
-//     }
-//     else{
-//         printf("Not Armstrong Numbeer.");
-//     }
-// }
+#include<stdio.h>
+// #include<conio.h>
+#include<math.h>
+int main(){
+    int n, original, sum = 0, len = 0;
+    printf("enter your number:-");
+    scanf("%d", &n);
+    original = n;
+    int temp = n;
+    while(temp>0){
+        len++;
+        temp = temp / 5;
+    }
+    temp = n;
+    while(temp>0){
+        int digits = temp % 5;
+        sum = sum +(int) pow(digits, len);
+        temp = temp / 5;
+    }
+    if(original==sum){
+        printf("Armstrong number.");
+    }
+    else{
+        printf("Not Armstrong Numbeer.");
+    }
+}
 
 
 
