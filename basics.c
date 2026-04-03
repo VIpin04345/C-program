@@ -1072,3 +1072,152 @@ int main(){
 
 
 
+// #include<stdio.h>
+// // #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int n, original, sum = 0, len = 0;
+//     printf("enter your number:-");
+//     scanf("%d", &n);
+//     original = n;
+//     int temp = n;
+//     while(temp>0){
+//         len++;
+//         temp = temp / 5;
+//     }
+//     temp = n;
+//     while(temp>0){
+//         int digits = temp % 5;
+//         sum = sum +(int) pow(digits, len);
+//         temp = temp / 5;
+//     }
+//     if(original==sum){
+//         printf("Armstrong number.");
+//     }
+//     else{
+//         printf("Not Armstrong Numbeer.");
+//     }
+// }
+
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// void printHello();
+// void printGoodbye();
+
+
+// int main(){
+//     printHello();
+//     printHello();
+//     printGoodbye();
+//     printGoodbye();
+//     return 0;
+// }
+
+// void printHello(){
+//     printf("Hello \n");
+// }
+
+// void printGoodbye(){
+//     printf("good bye \n");
+// }
+
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// void namaste();
+// void bonjour();
+
+// int main(){
+//     char h;
+//     printf("enter i for indian and f for france:-");
+//     scanf("%c", &h);
+//     if (h=='i'){
+//         namaste();
+//     }
+//     else{
+//         bonjour();
+//     }
+//     return 0;
+// }
+
+// void namaste(){
+//     printf("Namaste\n");
+//     bonjour();
+// }
+// void bonjour(){
+//     printf("bonjaur\n");
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+
+// void printHello();
+// void printName();
+// void printCaste();
+// void printSum();
+// int main(){
+//     printHello();
+//     printHello();
+//     printName();
+//     printCaste();
+//     printSum();
+
+//     return 0;
+// }
+
+// void printHello(){
+//     printf("hello\n");
+// }
+
+// void printName(){
+//     printf("Shubham\n");
+
+// }
+
+// void printCaste(){
+//     printf("Yadav\n");
+// }
+
+// void printSum(){
+//     int a;
+//     int b;
+//     int z;
+//     printf("enter the value of a\n");
+//     scanf("%d", &a);
+//     printf("enter the value of b\n");
+//     scanf("%d", &b);
+//     z = a + b;
+//     printf("%d", z);
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// void india();
+// void france();
+// int main(){
+//     char s;
+//     printf("enter  i for indian and f for frnace:-");
+//     scanf("%c", &s);
+//     if (s=='i'){
+//         india();
+//     }
+//     else{
+//         france();
+//     }
+//     return 0;
+// }
+
+
+
