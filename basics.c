@@ -1157,20 +1157,20 @@ void bonjour(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
 
-// void printHello();
-// void printName();
-// void printCaste();
-// void printSum();
-// int main(){
-//     printHello();
-//     printHello();
-//     printName();
-//     printCaste();
-//     printSum();
+void printHello();
+void printName();
+void printCaste();
+void printSum();
+int main(){
+    printHello();
+    printHello();
+    printName();
+    printCaste();
+    printSum();
 
 //     return 0;
 // }
