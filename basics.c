@@ -1374,16 +1374,16 @@ int main(){
 //     printf("%d", ***ppptr);
 // }
 
-// #include<stdio.h>
-// #include<conio.h>
-// void square(int x);
-// void _square(int *x);
-// int main(){
+#include<stdio.h>
+#include<conio.h>
+void square(int x);
+void _square(int *x);
+int main(){
 
-//     int a = 4;
-//     square(a);
-//     printf("%d\n", a);
-//     _square(&a);
-//     printf("%d\n", a);
-// }
+    int a = 4;
+    square(a);
+    printf("%d\n", a);
+    _square(&a);
+    printf("%d\n", a);
+}
 
