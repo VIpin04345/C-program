@@ -1220,4 +1220,170 @@ int main(){
 }
 
 
+// void india(){
+//     printf("Namaste");
+// }
+// void france(){
+//     printf("bonjour");
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// void printTable(int a);
+
+// int main(){
+//     int a;
+//     printf("enter the value of a");
+//     scanf("%d", & a);
+//     printTable(a);
+    
+// }
+
+
+// void printTable(int a){
+//     for (int i = 1; i <= 5;i++){
+//         printf("%d\n", a * i);
+//     }
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// int printSum(int a, int b);
+
+// int main(){
+
+//     int a, b;
+//     printf("enter the value of a");
+//     scanf("%d", &a);
+//     printf("enter the value b");
+//     scanf("%d", &b);
+//     int s = printSum(a, b);
+//     printf("%d", s);
+// }
+// int printSum(int a, int b){
+//     return a + b;
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+
+// void printGst(float a);
+// int main(){
+//     int a = 50;
+//     printGst(a);
+//     printf("%d", a);
+// }
+
+// void printGst(float a){
+//     a = a + (0.18 * 50);
+// //     printf("%f\n", a);
+// // }
+
+// # include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// int main(){
+//     int a;
+//     printf("enter the value of a");
+//     scanf("%d", &a);
+//     printf("%f", pow(a, 2));
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<math.h>
+// float printSquare(float a);
+// float printCircle(float a);
+// float printRact(float a, float b);
+
+// int main(){
+//     float a,b;
+//     printf("enter your number :-");
+//     scanf("%f", &a);
+//     printf("enter your number :-");
+//     scanf("%f", &b);
+//     printf("area of square is :%f\n", printSquare(a));
+//     printf("area of circle is :%f\n", printCircle(a));
+//     printf("area of ractangle is : %f\n", printRact(a, b));
+// }
+
+// float printSquare(float a){
+//     return a * a;
+// }
+
+// float printCircle(float a){
+//     return 3.14 * (a * a);
+// }
+
+// float printRact(float a , float b){
+//     return a * b;
+// }
+
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int age = 12;
+//     int *ptr = &age;
+
+//     // printf("%p\n", &age);
+//     printf("%u\n", &age);
+//     printf("%u\n", ptr);
+//     printf("%u\n", &ptr);
+
+//     printf("%d\n", age);
+//     printf("%d\n", *ptr);
+//     printf("%d\n", *(&age));
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+    
+// int x;
+// int *ptr;
+// ptr = &x;
+// *ptr = 0;
+// printf("%d\n", x);
+// printf("%d\n", *ptr);
+// *ptr += 5;
+// printf("%d\n", x);
+// printf("%d\n", *ptr);
+// (*ptr)++;
+// printf("%d\n", x);
+// printf("%d\n", *ptr);
+// }
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int x = 5;
+//     int *ptr = &x;
+//     int **pptr = &ptr;
+//     int ***ppptr = &pptr;
+//     printf("%d\n", **pptr);
+//     printf("%d", ***ppptr);
+// }
+
+// #include<stdio.h>
+// #include<conio.h>
+// void square(int x);
+// void _square(int *x);
+// int main(){
+
+//     int a = 4;
+//     square(a);
+//     printf("%d\n", a);
+//     _square(&a);
+//     printf("%d\n", a);
+// }
 
