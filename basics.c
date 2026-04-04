@@ -1313,17 +1313,17 @@ int main(){
 //     printf("area of ractangle is : %f\n", printRact(a, b));
 // }
 
-// float printSquare(float a){
-//     return a * a;
-// }
+float printSquare(float a){
+    return a * a;
+}
 
-// float printCircle(float a){
-//     return 3.14 * (a * a);
-// }
+float printCircle(float a){
+    return 3.14 * (a * a);
+}
 
-// float printRact(float a , float b){
-//     return a * b;
-// }
+float printRact(float a , float b){
+    return a * b;
+}
 
 
 
