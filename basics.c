@@ -1363,16 +1363,16 @@ int main(){
 // printf("%d\n", *ptr);
 // }
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-//     int x = 5;
-//     int *ptr = &x;
-//     int **pptr = &ptr;
-//     int ***ppptr = &pptr;
-//     printf("%d\n", **pptr);
-//     printf("%d", ***ppptr);
-// }
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int x = 5;
+    int *ptr = &x;
+    int **pptr = &ptr;
+    int ***ppptr = &pptr;
+    printf("%d\n", **pptr);
+    printf("%d", ***ppptr);
+}
 
 #include<stdio.h>
 #include<conio.h>
