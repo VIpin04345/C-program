@@ -1328,21 +1328,21 @@ int main(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-//     int age = 12;
-//     int *ptr = &age;
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int age = 12;
+    int *ptr = &age;
 
-//     // printf("%p\n", &age);
-//     printf("%u\n", &age);
-//     printf("%u\n", ptr);
-//     printf("%u\n", &ptr);
+    // printf("%p\n", &age);
+    printf("%u\n", &age);
+    printf("%u\n", ptr);
+    printf("%u\n", &ptr);
 
-//     printf("%d\n", age);
-//     printf("%d\n", *ptr);
-//     printf("%d\n", *(&age));
-// }
+    printf("%d\n", age);
+    printf("%d\n", *ptr);
+    printf("%d\n", *(&age));
+}
 
 
 #include<stdio.h>
