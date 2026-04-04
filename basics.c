@@ -1283,15 +1283,15 @@ int main(){
 // //     printf("%f\n", a);
 // // }
 
-// # include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// int main(){
-//     int a;
-//     printf("enter the value of a");
-//     scanf("%d", &a);
-//     printf("%f", pow(a, 2));
-// }
+# include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    printf("%f", pow(a, 2));
+}
 
 
 
