@@ -1295,23 +1295,23 @@ int main(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<math.h>
-// float printSquare(float a);
-// float printCircle(float a);
-// float printRact(float a, float b);
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+float printSquare(float a);
+float printCircle(float a);
+float printRact(float a, float b);
 
-// int main(){
-//     float a,b;
-//     printf("enter your number :-");
-//     scanf("%f", &a);
-//     printf("enter your number :-");
-//     scanf("%f", &b);
-//     printf("area of square is :%f\n", printSquare(a));
-//     printf("area of circle is :%f\n", printCircle(a));
-//     printf("area of ractangle is : %f\n", printRact(a, b));
-// }
+int main(){
+    float a,b;
+    printf("enter your number :-");
+    scanf("%f", &a);
+    printf("enter your number :-");
+    scanf("%f", &b);
+    printf("area of square is :%f\n", printSquare(a));
+    printf("area of circle is :%f\n", printCircle(a));
+    printf("area of ractangle is : %f\n", printRact(a, b));
+}
 
 float printSquare(float a){
     return a * a;
