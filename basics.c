@@ -1291,19 +1291,19 @@ int main(){
 // }
 
 
-// void printTable(int a){
-//     for (int i = 1; i <= 5;i++){
-//         printf("%d\n", a * i);
-//     }
-// }
+void printTable(int a){
+    for (int i = 1; i <= 5;i++){
+        printf("%d\n", a * i);
+    }
+}
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// int printSum(int a, int b);
+#include<stdio.h>
+#include<conio.h>
+int printSum(int a, int b);
 
-// int main(){
+int main(){
 
     int a, b;
     printf("enter the value of a");
