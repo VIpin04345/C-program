@@ -1305,17 +1305,17 @@ int main(){
 
 // int main(){
 
-//     int a, b;
-//     printf("enter the value of a");
-//     scanf("%d", &a);
-//     printf("enter the value b");
-//     scanf("%d", &b);
-//     int s = printSum(a, b);
-//     printf("%d", s);
-// }
-// int printSum(int a, int b){
-//     return a + b;
-// }
+    int a, b;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    printf("enter the value b");
+    scanf("%d", &b);
+    int s = printSum(a, b);
+    printf("%d", s);
+}
+int printSum(int a, int b){
+    return a + b;
+}
 
 
 #include<stdio.h>
