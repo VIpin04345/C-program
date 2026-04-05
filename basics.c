@@ -197,6 +197,21 @@ void main(){
 }
 
 
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    double r;
+    double a;
+    double c;
+    printf("enter your radius");
+    scanf("%lf", &r);
+    a = 3.14 * r * r;
+    printf("%f \n", a);
+    c = 2 * 3.14 * r;
+    printf("%f \n", c);
+}
+
+
 
 
 #include<stdio.h>
