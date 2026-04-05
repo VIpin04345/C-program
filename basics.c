@@ -1270,25 +1270,25 @@ int main(){
 }
 
 
-// void india(){
-//     printf("Namaste");
-// }
-// void france(){
-//     printf("bonjour");
-// }
+void india(){
+    printf("Namaste");
+}
+void france(){
+    printf("bonjour");
+}
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// void printTable(int a);
+#include<stdio.h>
+#include<conio.h>
+void printTable(int a);
 
-// int main(){
-//     int a;
-//     printf("enter the value of a");
-//     scanf("%d", & a);
-//     printTable(a);
+int main(){
+    int a;
+    printf("enter the value of a");
+    scanf("%d", & a);
+    printTable(a);
     
-// }
+}
 
 
 void printTable(int a){
