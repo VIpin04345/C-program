@@ -1318,14 +1318,14 @@ int main(){
 // }
 
 
-// #include<stdio.h>
-// #include<conio.h>
+#include<stdio.h>
+#include<conio.h>
 
-// void printGst(float a);
-// int main(){
-//     int a = 50;
-//     printGst(a);
-//     printf("%d", a);
+void printGst(float a);
+int main(){
+    int a = 50;
+    printGst(a);
+    printf("%d", a);
 }
 
 void printGst(float a){
