@@ -1438,15 +1438,15 @@ int main(){
 }
 
 
-// void square(int x){
-//     x = x * x;
-//     printf("%d\n", x);
-// }
+void square(int x){
+    x = x * x;
+    printf("%d\n", x);
+}
 
-// void _square(int *x){
-//     *x = (*x) * (*x);
-//     printf("%d\n", *x);
-// }
+void _square(int *x){
+    *x = (*x) * (*x);
+    printf("%d\n", *x);
+}
 
 
 
