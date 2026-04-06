@@ -1471,12 +1471,12 @@ void swap(int a, int b){
 
 }
 
-// void _swap(int *a , int *b){
-//     int temp = *b;
-//     *b = *a;
-//     *a = temp;
-//     printf("%d %d\n", *a, *b);
-// }
+void _swap(int *a , int *b){
+    int temp = *b;
+    *b = *a;
+    *a = temp;
+    printf("%d %d\n", *a, *b);
+}
 
 // #include<stdio.h>
 // #include<conio.h>
