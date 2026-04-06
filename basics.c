@@ -1478,12 +1478,12 @@ void _swap(int *a , int *b){
     printf("%d %d\n", *a, *b);
 }
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-//     int marks[];
-//     printf("%d", marks[1]);
-// }
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int marks[];
+    printf("%d", marks[1]);
+}
 
 
 
