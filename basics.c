@@ -1487,17 +1487,17 @@ int main(){
 
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// #include<string.h>
-// int main(){
-//     // char firststr[6] = "Apple";
-//     // char secondstr[6] = "Banana";
-//     // printf("%d", strcmp(firststr, secondstr));
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main(){
+    char firststr[6] = "Apple";
+    char secondstr[6] = "Banana";
+    printf("%d", strcmp(firststr, secondstr));
 
-//     // char str[] = "shubhmmam";
-//     // printf("%d", strlen(str));
-// }
+    char str[] = "shubhmmam";
+    printf("%d", strlen(str));
+}
 
 
 
