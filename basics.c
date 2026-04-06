@@ -1437,3 +1437,192 @@ int main(){
     printf("%d\n", a);
 }
 
+
+// void square(int x){
+//     x = x * x;
+//     printf("%d\n", x);
+// }
+
+// void _square(int *x){
+//     *x = (*x) * (*x);
+//     printf("%d\n", *x);
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// void swap(int a, int b);
+// void _swap(int *a, int *b);
+
+// int main(){
+//     int a = 3, b = 5;
+//     swap(a, b);
+//     printf("%d %d\n", a, b);
+//     _swap(&a, &b);
+//     printf("%d %d", a, b);
+// }
+
+// void swap(int a, int b){
+//     int temp = b;
+//     b = a;
+//     a = temp;
+//     printf("%d %d\n", a, b);
+
+// }
+
+// void _swap(int *a , int *b){
+//     int temp = *b;
+//     *b = *a;
+//     *a = temp;
+//     printf("%d %d\n", *a, *b);
+// }
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+//     int marks[];
+//     printf("%d", marks[1]);
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// #include<string.h>
+// int main(){
+//     // char firststr[6] = "Apple";
+//     // char secondstr[6] = "Banana";
+//     // printf("%d", strcmp(firststr, secondstr));
+
+//     // char str[] = "shubhmmam";
+//     // printf("%d", strlen(str));
+// }
+
+
+
+
+// arrayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+// #include<stdio.h>
+// int main(){
+//     // int marks[] = {97, 89, 80};
+    // printf("%d %d %d", marks[0],marks[1],marks[2]);
+
+    // int marks[3] = {12, 13};
+    // printf("%d", marks[1]);
+
+    // int marks[3];
+    // printf("enter your 3 marks:-");
+    // scanf("%d %d %d", &marks[0], &marks[1], &marks[2]);
+    // printf("%d %d %d", marks[0], marks[1], marks[2]);
+
+    // float price[3];
+    // printf("enter price of three items:-");
+    // scanf("%f %f %f", &price[0], &price[1], &price[2]);
+    // printf("%f\n", price[0]+(0.18+price[0]));
+    // printf("%f\n",price[1]+(0.18+price[1]));
+    // printf("%f", price[2]+(0.18+price[2]));
+    // return 0;
+
+    // int marks[] = {1, 2, 3, 4};
+    // int markss[4] = {11, 2, 3};
+    // printf("%d %d", marks[3],markss[2]);
+
+    // int age = 22;
+    // int *ptr = &age;
+    // printf("%u\n", ptr);
+    // ptr++;
+    // printf("%u\n", ptr);
+    // ptr--;
+    // printf("%u", ptr);
+
+    // float age = 22.002;
+    // float *ptr = &age;
+    // printf("%u\n", ptr);
+    // ptr++;
+    // printf("%u\n", ptr);
+    // ptr--;
+    // printf("%u", ptr);
+
+    // char str = '*';
+    // char *ptr = &str;
+    // printf("%u\n", ptr);
+    // ptr++;
+    // printf("%u\n", ptr);
+
+    // int age = 22;
+    // int _age = 23;
+    // int *ptr = &age;
+    // int *_ptr = &_age;
+    // printf("%u\n", ptr - _ptr);
+    // _ptr = &age;
+    // printf("%u", ptr == _ptr);
+
+
+    // array is a pointer
+
+//     int aadhar[5];
+//     int *ptr = &aadhar[0];
+//     for (int i = 0; i < 5;i++){
+//         printf("%d", i);
+//         scanf("%d\n",(ptr + i));
+
+//     for (int i = 0; i < 5;i++){
+//         printf("%d\n", i, *(ptr + i));
+//     }
+// }
+
+
+// }
+
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// void printNumbers(int arr[], int n);
+
+// void main(){
+//     int arr[] = {1, 2, 3, 4, 5, 6};
+//     printNumbers(arr, 6);
+// }
+
+// void printNumbers(int arr[],int n){
+//     for (int i = 0; i < n;i++){
+//         printf("%d\t", arr[i]);
+//     }
+//     printf('\n');
+// }
+
+// multi
+
+// #include<stdio.h>
+// #include<conio.h>
+// int main(){
+    // int arr[2][2] = {{1, 2}, {3, 4}};
+    // printf("%d %d %d %d\n", arr[0][0], arr[0][1], arr[1][0], arr[1][1]);
+
+    // int arr[2][3] = {{89, 40, 50}, {80, 90, 95}};
+    // printf("%d", arr[1][1]);
+// }
+
+
+// #include<stdio.h>
+// #include<conio.h>
+// int countodd(int arr[], int n);
+
+// int main(){
+//     int arr[] = {1, 2, 3, 4, 5};
+//     printf("%d\n", countodd(arr, 6));
+// }
+
+// int countodd(int arr[], int n){
+//     int count = 0;
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (arr[i]%2!=0){
+//                 count++;
+//         }
+//     }
+//     return count;
+// }
