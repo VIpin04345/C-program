@@ -1504,13 +1504,13 @@ int main(){
 
 // arrayyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
-// #include<stdio.h>
-// int main(){
-//     // int marks[] = {97, 89, 80};
-    // printf("%d %d %d", marks[0],marks[1],marks[2]);
+#include<stdio.h>
+int main(){
+    // int marks[] = {97, 89, 80};
+    printf("%d %d %d", marks[0],marks[1],marks[2]);
 
-    // int marks[3] = {12, 13};
-    // printf("%d", marks[1]);
+    int marks[3] = {12, 13};
+    printf("%d", marks[1]);
 
     // int marks[3];
     // printf("enter your 3 marks:-");
