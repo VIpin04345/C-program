@@ -1512,10 +1512,10 @@ int main(){
     int marks[3] = {12, 13};
     printf("%d", marks[1]);
 
-    // int marks[3];
-    // printf("enter your 3 marks:-");
-    // scanf("%d %d %d", &marks[0], &marks[1], &marks[2]);
-    // printf("%d %d %d", marks[0], marks[1], marks[2]);
+    int marks[3];
+    printf("enter your 3 marks:-");
+    scanf("%d %d %d", &marks[0], &marks[1], &marks[2]);
+    printf("%d %d %d", marks[0], marks[1], marks[2]);
 
     // float price[3];
     // printf("enter price of three items:-");
