@@ -1525,9 +1525,9 @@ int main(){
     printf("%f", price[2]+(0.18+price[2]));
     return 0;
 
-    // int marks[] = {1, 2, 3, 4};
-    // int markss[4] = {11, 2, 3};
-    // printf("%d %d", marks[3],markss[2]);
+    int marks[] = {1, 2, 3, 4};
+    int markss[4] = {11, 2, 3};
+    printf("%d %d", marks[3],markss[2]);
 
     // int age = 22;
     // int *ptr = &age;
