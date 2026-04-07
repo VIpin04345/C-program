@@ -1545,11 +1545,11 @@ int main(){
     ptr--;
     printf("%u", ptr);
 
-    // char str = '*';
-    // char *ptr = &str;
-    // printf("%u\n", ptr);
-    // ptr++;
-    // printf("%u\n", ptr);
+    char str = '*';
+    char *ptr = &str;
+    printf("%u\n", ptr);
+    ptr++;
+    printf("%u\n", ptr);
 
     // int age = 22;
     // int _age = 23;
