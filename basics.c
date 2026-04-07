@@ -1529,13 +1529,13 @@ int main(){
     int markss[4] = {11, 2, 3};
     printf("%d %d", marks[3],markss[2]);
 
-    // int age = 22;
-    // int *ptr = &age;
-    // printf("%u\n", ptr);
-    // ptr++;
-    // printf("%u\n", ptr);
-    // ptr--;
-    // printf("%u", ptr);
+    int age = 22;
+    int *ptr = &age;
+    printf("%u\n", ptr);
+    ptr++;
+    printf("%u\n", ptr);
+    ptr--;
+    printf("%u", ptr);
 
     // float age = 22.002;
     // float *ptr = &age;
