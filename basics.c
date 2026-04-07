@@ -1537,13 +1537,13 @@ int main(){
     ptr--;
     printf("%u", ptr);
 
-    // float age = 22.002;
-    // float *ptr = &age;
-    // printf("%u\n", ptr);
-    // ptr++;
-    // printf("%u\n", ptr);
-    // ptr--;
-    // printf("%u", ptr);
+    float age = 22.002;
+    float *ptr = &age;
+    printf("%u\n", ptr);
+    ptr++;
+    printf("%u\n", ptr);
+    ptr--;
+    printf("%u", ptr);
 
     // char str = '*';
     // char *ptr = &str;
