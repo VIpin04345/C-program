@@ -1521,9 +1521,9 @@ int main(){
     printf("enter price of three items:-");
     scanf("%f %f %f", &price[0], &price[1], &price[2]);
     printf("%f\n", price[0]+(0.18+price[0]));
-    // printf("%f\n",price[1]+(0.18+price[1]));
-    // printf("%f", price[2]+(0.18+price[2]));
-    // return 0;
+    printf("%f\n",price[1]+(0.18+price[1]));
+    printf("%f", price[2]+(0.18+price[2]));
+    return 0;
 
     // int marks[] = {1, 2, 3, 4};
     // int markss[4] = {11, 2, 3};
