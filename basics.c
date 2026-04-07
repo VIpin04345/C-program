@@ -1517,10 +1517,10 @@ int main(){
     scanf("%d %d %d", &marks[0], &marks[1], &marks[2]);
     printf("%d %d %d", marks[0], marks[1], marks[2]);
 
-    // float price[3];
-    // printf("enter price of three items:-");
-    // scanf("%f %f %f", &price[0], &price[1], &price[2]);
-    // printf("%f\n", price[0]+(0.18+price[0]));
+    float price[3];
+    printf("enter price of three items:-");
+    scanf("%f %f %f", &price[0], &price[1], &price[2]);
+    printf("%f\n", price[0]+(0.18+price[0]));
     // printf("%f\n",price[1]+(0.18+price[1]));
     // printf("%f", price[2]+(0.18+price[2]));
     // return 0;
