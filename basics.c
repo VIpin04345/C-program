@@ -1551,13 +1551,13 @@ int main(){
     ptr++;
     printf("%u\n", ptr);
 
-    // int age = 22;
-    // int _age = 23;
-    // int *ptr = &age;
-    // int *_ptr = &_age;
-    // printf("%u\n", ptr - _ptr);
-    // _ptr = &age;
-    // printf("%u", ptr == _ptr);
+    int age = 22;
+    int _age = 23;
+    int *ptr = &age;
+    int *_ptr = &_age;
+    printf("%u\n", ptr - _ptr);
+    _ptr = &age;
+    printf("%u", ptr == _ptr);
 
 
     // array is a pointer
