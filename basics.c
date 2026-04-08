@@ -1607,14 +1607,14 @@ int main(){
 }
 
 
-// #include<stdio.h>
-// #include<conio.h>
-// int countodd(int arr[], int n);
+#include<stdio.h>
+#include<conio.h>
+int countodd(int arr[], int n);
 
-// int main(){
-//     int arr[] = {1, 2, 3, 4, 5};
-//     printf("%d\n", countodd(arr, 6));
-// }
+int main(){
+    int arr[] = {1, 2, 3, 4, 5};
+    printf("%d\n", countodd(arr, 6));
+}
 
 // int countodd(int arr[], int n){
 //     int count = 0;
