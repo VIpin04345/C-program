@@ -1587,12 +1587,12 @@ void main(){
     printNumbers(arr, 6);
 }
 
-// void printNumbers(int arr[],int n){
-//     for (int i = 0; i < n;i++){
-//         printf("%d\t", arr[i]);
-//     }
-//     printf('\n');
-// }
+void printNumbers(int arr[],int n){
+    for (int i = 0; i < n;i++){
+        printf("%d\t", arr[i]);
+    }
+    printf('\n');
+}
 
 // multi
 
