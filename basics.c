@@ -1568,13 +1568,13 @@ int main(){
         printf("%d", i);
         scanf("%d\n",(ptr + i));
 
-//     for (int i = 0; i < 5;i++){
-//         printf("%d\n", i, *(ptr + i));
-//     }
-// }
+    for (int i = 0; i < 5;i++){
+        printf("%d\n", i, *(ptr + i));
+    }
+}
 
 
-// }
+}
 
 
 
