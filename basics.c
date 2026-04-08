@@ -1562,11 +1562,11 @@ int main(){
 
     // array is a pointer
 
-//     int aadhar[5];
-//     int *ptr = &aadhar[0];
-//     for (int i = 0; i < 5;i++){
-//         printf("%d", i);
-//         scanf("%d\n",(ptr + i));
+    int aadhar[5];
+    int *ptr = &aadhar[0];
+    for (int i = 0; i < 5;i++){
+        printf("%d", i);
+        scanf("%d\n",(ptr + i));
 
 //     for (int i = 0; i < 5;i++){
 //         printf("%d\n", i, *(ptr + i));
