@@ -1596,15 +1596,15 @@ void printNumbers(int arr[],int n){
 
 // multi
 
-// #include<stdio.h>
-// #include<conio.h>
-// int main(){
-    // int arr[2][2] = {{1, 2}, {3, 4}};
-    // printf("%d %d %d %d\n", arr[0][0], arr[0][1], arr[1][0], arr[1][1]);
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int arr[2][2] = {{1, 2}, {3, 4}};
+    printf("%d %d %d %d\n", arr[0][0], arr[0][1], arr[1][0], arr[1][1]);
 
-    // int arr[2][3] = {{89, 40, 50}, {80, 90, 95}};
-    // printf("%d", arr[1][1]);
-// }
+    int arr[2][3] = {{89, 40, 50}, {80, 90, 95}};
+    printf("%d", arr[1][1]);
+}
 
 
 // #include<stdio.h>
