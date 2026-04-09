@@ -1638,3 +1638,16 @@ int main() {
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main() {
+    int a = 5, b = 7;
+    int *p1 = &a, *p2 = &b;
+
+    int sum = *p1 + *p2;
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
