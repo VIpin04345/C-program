@@ -1701,3 +1701,22 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    int arr[] = {12, 45, 7, 89, 23};
+    int *p = arr;
+    int max = *p;
+
+    for(int i = 1; i < 5; i++) {
+        if(*(p + i) > max) {
+            max = *(p + i);
+        }
+    }
+
+    printf("Largest = %d", max);
+
+    return 0;
+}
