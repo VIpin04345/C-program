@@ -114,27 +114,27 @@ int main() {
     return 0;
 }
 // Array me duplicate elements find karo.
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int arr[5], i, j;
+int main() {
+    int arr[5], i, j;
 
-//     for(i = 0; i < 5; i++)
-//         scanf("%d", &arr[i]);
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
 
-//     printf("Duplicate elements: ");
+    printf("Duplicate elements: ");
 
-//     for(i = 0; i < 5; i++) {
-//         for(j = i + 1; j < 5; j++) {
-//             if(arr[i] == arr[j]) {
-//                 printf("%d ", arr[i]);
-//                 break;
-//             }
-//         }
-//     }
+    for(i = 0; i < 5; i++) {
+        for(j = i + 1; j < 5; j++) {
+            if(arr[i] == arr[j]) {
+                printf("%d ", arr[i]);
+                break;
+            }
+        }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 // Do arrays ko merge karo.
 // #include <stdio.h>
 
