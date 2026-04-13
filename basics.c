@@ -1,193 +1,4 @@
 
-Array me sabse chhota element find karo.
-#include <stdio.h>
-
-int main() {
-    int arr[5], i, min;
-
-    for(i = 0; i < 5; i++)
-        scanf("%d", &arr[i]);
-
-    min = arr[0];
-
-    for(i = 1; i < 5; i++) {
-        if(arr[i] < min)
-            min = arr[i];
-    }
-
-    printf("Smallest = %d", min);
-
-    return 0;
-}
-// Array ko reverse order me print karo.
-#include <stdio.h>
-
-int main() {
-    int n, i;
-
-    printf("Enter size: ");
-    scanf("%d", &n);
-
-    int arr[n];
-
-    for(i = 0; i < n; i++)
-        scanf("%d", &arr[i]);
-
-    printf("Reverse array: ");
-
-    for(i = n - 1; i >= 0; i--)
-        printf("%d ", arr[i]);
-
-    return 0;
-}
-// Array ke even aur odd elements count karo.
-#include <stdio.h>
-
-int main() {
-    int arr[10], i, even = 0, odd = 0;
-
-    for(i = 0; i < 10; i++)
-        scanf("%d", &arr[i]);
-
-    for(i = 0; i < 10; i++) {
-        if(arr[i] % 2 == 0)
-            even++;
-        else
-            odd++;
-    }
-
-    printf("Even = %d\n", even);
-    printf("Odd = %d", odd);
-
-    return 0;
-}
-// Array me kisi number ko search karo.
-#include <stdio.h>
-
-int main() {
-    int arr[5], i, num, found = 0;
-
-    for(i = 0; i < 5; i++)
-        scanf("%d", &arr[i]);
-
-    printf("Enter number to search: ");
-    scanf("%d", &num);
-
-    for(i = 0; i < 5; i++) {
-        if(arr[i] == num) {
-            found = 1;
-            break;
-        }
-    }
-
-    if(found)
-        printf("Number found at position %d", i + 1);
-    else
-        printf("Number not found");
-
-    return 0;
-}
-// Array ko ascending order me sort karo.
-#include <stdio.h>
-
-int main() {
-    int arr[5], i, j, temp;
-
-    for(i = 0; i < 5; i++)
-        scanf("%d", &arr[i]);
-
-    for(i = 0; i < 5; i++) {
-        for(j = i + 1; j < 5; j++) {
-            if(arr[i] > arr[j]) {
-                temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-            }
-        }
-    }
-
-    printf("Sorted array: ");
-
-    for(i = 0; i < 5; i++)
-        printf("%d ", arr[i]);
-
-    return 0;
-}
-// Array me duplicate elements find karo.
-#include <stdio.h>
-
-int main() {
-    int arr[5], i, j;
-
-    for(i = 0; i < 5; i++)
-        scanf("%d", &arr[i]);
-
-    printf("Duplicate elements: ");
-
-    for(i = 0; i < 5; i++) {
-        for(j = i + 1; j < 5; j++) {
-            if(arr[i] == arr[j]) {
-                printf("%d ", arr[i]);
-                break;
-            }
-        }
-    }
-
-    return 0;
-}
-// Do arrays ko merge karo.
-#include <stdio.h>
-
-int main() {
-    int a[3], b[3], c[6], i;
-
-    printf("Enter first array: ");
-    for(i = 0; i < 3; i++)
-        scanf("%d", &a[i]);
-
-    printf("Enter second array: ");
-    for(i = 0; i < 3; i++)
-        scanf("%d", &b[i]);
-
-    for(i = 0; i < 3; i++)
-        c[i] = a[i];
-
-    for(i = 0; i < 3; i++)
-        c[i + 3] = b[i];
-
-    printf("Merged array: ");
-
-    for(i = 0; i < 6; i++)
-        printf("%d ", c[i]);
-
-    return 0;
-}
-// Array ke second largest element ko find karo.
-#include <stdio.h>
-
-int main() {
-    int arr[5], i;
-    int largest, second;
-
-    for(i = 0; i < 5; i++)
-        scanf("%d", &arr[i]);
-
-    largest = second = arr[0];
-
-    for(i = 1; i < 5; i++) {
-        if(arr[i] > largest) {
-            second = largest;
-            largest = arr[i];
-        } else if(arr[i] > second && arr[i] != largest) {
-            second = arr[i];
-        }
-    }
-
-    printf("Second Largest = %d", second);
-
-    return 0;
-}
-
 
 # include<stdio.h>
 # include<conio.h>
@@ -2504,5 +2315,196 @@ int main() {
     }
 
     printf("Uppercase: %s", str);
+    return 0;
+}
+
+
+
+Array me sabse chhota element find karo.
+#include <stdio.h>
+
+int main() {
+    int arr[5], i, min;
+
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
+
+    min = arr[0];
+
+    for(i = 1; i < 5; i++) {
+        if(arr[i] < min)
+            min = arr[i];
+    }
+
+    printf("Smallest = %d", min);
+
+    return 0;
+}
+// Array ko reverse order me print karo.
+#include <stdio.h>
+
+int main() {
+    int n, i;
+
+    printf("Enter size: ");
+    scanf("%d", &n);
+
+    int arr[n];
+
+    for(i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
+
+    printf("Reverse array: ");
+
+    for(i = n - 1; i >= 0; i--)
+        printf("%d ", arr[i]);
+
+    return 0;
+}
+// Array ke even aur odd elements count karo.
+#include <stdio.h>
+
+int main() {
+    int arr[10], i, even = 0, odd = 0;
+
+    for(i = 0; i < 10; i++)
+        scanf("%d", &arr[i]);
+
+    for(i = 0; i < 10; i++) {
+        if(arr[i] % 2 == 0)
+            even++;
+        else
+            odd++;
+    }
+
+    printf("Even = %d\n", even);
+    printf("Odd = %d", odd);
+
+    return 0;
+}
+// Array me kisi number ko search karo.
+#include <stdio.h>
+
+int main() {
+    int arr[5], i, num, found = 0;
+
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
+
+    printf("Enter number to search: ");
+    scanf("%d", &num);
+
+    for(i = 0; i < 5; i++) {
+        if(arr[i] == num) {
+            found = 1;
+            break;
+        }
+    }
+
+    if(found)
+        printf("Number found at position %d", i + 1);
+    else
+        printf("Number not found");
+
+    return 0;
+}
+// Array ko ascending order me sort karo.
+#include <stdio.h>
+
+int main() {
+    int arr[5], i, j, temp;
+
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
+
+    for(i = 0; i < 5; i++) {
+        for(j = i + 1; j < 5; j++) {
+            if(arr[i] > arr[j]) {
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+
+    printf("Sorted array: ");
+
+    for(i = 0; i < 5; i++)
+        printf("%d ", arr[i]);
+
+    return 0;
+}
+// Array me duplicate elements find karo.
+#include <stdio.h>
+
+int main() {
+    int arr[5], i, j;
+
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
+
+    printf("Duplicate elements: ");
+
+    for(i = 0; i < 5; i++) {
+        for(j = i + 1; j < 5; j++) {
+            if(arr[i] == arr[j]) {
+                printf("%d ", arr[i]);
+                break;
+            }
+        }
+    }
+
+    return 0;
+}
+// Do arrays ko merge karo.
+#include <stdio.h>
+
+int main() {
+    int a[3], b[3], c[6], i;
+
+    printf("Enter first array: ");
+    for(i = 0; i < 3; i++)
+        scanf("%d", &a[i]);
+
+    printf("Enter second array: ");
+    for(i = 0; i < 3; i++)
+        scanf("%d", &b[i]);
+
+    for(i = 0; i < 3; i++)
+        c[i] = a[i];
+
+    for(i = 0; i < 3; i++)
+        c[i + 3] = b[i];
+
+    printf("Merged array: ");
+
+    for(i = 0; i < 6; i++)
+        printf("%d ", c[i]);
+
+    return 0;
+}
+// Array ke second largest element ko find karo.
+#include <stdio.h>
+
+int main() {
+    int arr[5], i;
+    int largest, second;
+
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
+
+    largest = second = arr[0];
+
+    for(i = 1; i < 5; i++) {
+        if(arr[i] > largest) {
+            second = largest;
+            largest = arr[i];
+        } else if(arr[i] > second && arr[i] != largest) {
+            second = arr[i];
+        }
+    }
+
+    printf("Second Largest = %d", second);
+
     return 0;
 }
