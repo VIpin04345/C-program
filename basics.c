@@ -62,31 +62,31 @@ int main() {
     return 0;
 }
 // Array me kisi number ko search karo.
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int arr[5], i, num, found = 0;
+int main() {
+    int arr[5], i, num, found = 0;
 
-//     for(i = 0; i < 5; i++)
-//         scanf("%d", &arr[i]);
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
 
-//     printf("Enter number to search: ");
-//     scanf("%d", &num);
+    printf("Enter number to search: ");
+    scanf("%d", &num);
 
-//     for(i = 0; i < 5; i++) {
-//         if(arr[i] == num) {
-//             found = 1;
-//             break;
-//         }
-//     }
+    for(i = 0; i < 5; i++) {
+        if(arr[i] == num) {
+            found = 1;
+            break;
+        }
+    }
 
-//     if(found)
-//         printf("Number found at position %d", i + 1);
-//     else
-//         printf("Number not found");
+    if(found)
+        printf("Number found at position %d", i + 1);
+    else
+        printf("Number not found");
 
-//     return 0;
-// }
+    return 0;
+}
 // Array ko ascending order me sort karo.
 // #include <stdio.h>
 
