@@ -41,26 +41,26 @@ int main() {
     return 0;
 }
 // Array ke even aur odd elements count karo.
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int arr[10], i, even = 0, odd = 0;
+int main() {
+    int arr[10], i, even = 0, odd = 0;
 
-//     for(i = 0; i < 10; i++)
-//         scanf("%d", &arr[i]);
+    for(i = 0; i < 10; i++)
+        scanf("%d", &arr[i]);
 
-//     for(i = 0; i < 10; i++) {
-//         if(arr[i] % 2 == 0)
-//             even++;
-//         else
-//             odd++;
-//     }
+    for(i = 0; i < 10; i++) {
+        if(arr[i] % 2 == 0)
+            even++;
+        else
+            odd++;
+    }
 
-//     printf("Even = %d\n", even);
-//     printf("Odd = %d", odd);
+    printf("Even = %d\n", even);
+    printf("Odd = %d", odd);
 
-//     return 0;
-// }
+    return 0;
+}
 // Array me kisi number ko search karo.
 // #include <stdio.h>
 
