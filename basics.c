@@ -163,30 +163,30 @@ int main() {
     return 0;
 }
 // Array ke second largest element ko find karo.
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int arr[5], i;
-//     int largest, second;
+int main() {
+    int arr[5], i;
+    int largest, second;
 
-//     for(i = 0; i < 5; i++)
-//         scanf("%d", &arr[i]);
+    for(i = 0; i < 5; i++)
+        scanf("%d", &arr[i]);
 
-//     largest = second = arr[0];
+    largest = second = arr[0];
 
-//     for(i = 1; i < 5; i++) {
-//         if(arr[i] > largest) {
-//             second = largest;
-//             largest = arr[i];
-//         } else if(arr[i] > second && arr[i] != largest) {
-//             second = arr[i];
-//         }
-//     }
+    for(i = 1; i < 5; i++) {
+        if(arr[i] > largest) {
+            second = largest;
+            largest = arr[i];
+        } else if(arr[i] > second && arr[i] != largest) {
+            second = arr[i];
+        }
+    }
 
-//     printf("Second Largest = %d", second);
+    printf("Second Largest = %d", second);
 
-//     return 0;
-// }
+    return 0;
+}
 
 
 # include<stdio.h>
