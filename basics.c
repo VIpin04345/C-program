@@ -18,28 +18,28 @@ int main() {
     printf("Smallest = %d", min);
 
     return 0;
-// }
+}
 // Array ko reverse order me print karo.
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int n, i;
+int main() {
+    int n, i;
 
-//     printf("Enter size: ");
-//     scanf("%d", &n);
+    printf("Enter size: ");
+    scanf("%d", &n);
 
-//     int arr[n];
+    int arr[n];
 
-//     for(i = 0; i < n; i++)
-//         scanf("%d", &arr[i]);
+    for(i = 0; i < n; i++)
+        scanf("%d", &arr[i]);
 
-//     printf("Reverse array: ");
+    printf("Reverse array: ");
 
-//     for(i = n - 1; i >= 0; i--)
-//         printf("%d ", arr[i]);
+    for(i = n - 1; i >= 0; i--)
+        printf("%d ", arr[i]);
 
-//     return 0;
-// }
+    return 0;
+}
 // Array ke even aur odd elements count karo.
 // #include <stdio.h>
 
