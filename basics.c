@@ -1504,6 +1504,19 @@ int main(){
     printf("%d %d", a, b);
 }
 
+
+#include<stdio.h>
+#include<conio.h>
+void swap(int a, int b);
+void _swap(int *a, int *b);
+
+int main(){
+    int a = 3, b = 5;
+    swap(a, b);
+    printf("%d %d\n", a, b);
+    _swap(&a, &b);
+    printf("%d %d", a, b);
+}
 void swap(int a, int b){
     int temp = b;
     b = a;
