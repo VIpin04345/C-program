@@ -149,6 +149,21 @@ void main(){
 
     
 }
+
+
+#include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    int z;
+    printf("enter a nummber");
+    scanf("%d", &a);
+    printf("add value two:%d \n", a + 2);
+    printf("multiply value five:%d \n", a * 2);
+    printf("reminder value three:%d \n", a % 2);
+
+    
+}
 #include<stdio.h>
 #include<conio.h>
 void main(){
