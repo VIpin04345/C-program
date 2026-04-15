@@ -304,10 +304,7 @@ int main(){
     else{
         printf("is odd number ");
     }
-    return 0;
-}
-
-
+    return 0
 #include<stdio.h>
 int main(){
     int a , b;
