@@ -501,6 +501,27 @@ int main(){
     }
 }
 
+
+Write a C program to check whether a number is positive, negative, or zero.
+
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int number;
+    printf("Enter your number:-");
+    scanf("%d", &number);
+    if (number<0){
+        printf("number is a negative number%d \n", number);
+    }
+    else if(number>0){
+        printf("number is positive %d \n", number);
+    }
+    else{
+        printf("number is zero %d \n", number);
+    }
+}
+
+
 #include<stdio.h>
 int main(){
     int i;
