@@ -2848,3 +2848,149 @@ int main() {
 
     return 0;
 }
+
+
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    int i = 0;
+
+    printf("Enter string: ");
+    gets(str);
+
+    while (str[i] != '\0') {
+        i++;
+    }
+
+    printf("Length = %d", i);
+    return 0;
+// }
+// 2. String Reverse Karna
+// #include <stdio.h>
+// #include <string.h>
+
+// int main() {
+//     char str[100], rev[100];
+//     int i, j = 0;
+
+//     printf("Enter string: ");
+//     gets(str);
+
+//     for (i = strlen(str) - 1; i >= 0; i--) {
+//         rev[j++] = str[i];
+//     }
+//     rev[j] = '\0';
+
+//     printf("Reverse = %s", rev);
+//     return 0;
+// }
+// 3. Palindrome Check
+// #include <stdio.h>
+// #include <string.h>
+
+// int main() {
+//     char str[100];
+//     int i, flag = 0, len;
+
+//     printf("Enter string: ");
+//     gets(str);
+
+//     len = strlen(str);
+
+//     for (i = 0; i < len/2; i++) {
+//         if (str[i] != str[len - i - 1]) {
+//             flag = 1;
+//             break;
+//         }
+//     }
+
+//     if (flag == 0)
+//         printf("Palindrome");
+//     else
+//         printf("Not Palindrome");
+
+//     return 0;
+// }
+// 4. String Copy (Without strcpy)
+// #include <stdio.h>
+
+// int main() {
+//     char str1[100], str2[100];
+//     int i = 0;
+
+//     printf("Enter string: ");
+//     gets(str1);
+
+//     while (str1[i] != '\0') {
+//         str2[i] = str1[i];
+//         i++;
+//     }
+//     str2[i] = '\0';
+
+//     printf("Copied string = %s", str2);
+//     return 0;
+// }
+// 5. String Compare (Without strcmp)
+// #include <stdio.h>
+
+// int main() {
+//     char str1[100], str2[100];
+//     int i = 0;
+
+//     printf("Enter first string: ");
+//     gets(str1);
+//     printf("Enter second string: ");
+//     gets(str2);
+
+//     while (str1[i] == str2[i] && str1[i] != '\0') {
+//         i++;
+//     }
+
+//     if (str1[i] == '\0' && str2[i] == '\0')
+//         printf("Strings are equal");
+//     else
+//         printf("Strings are not equal");
+
+//     return 0;
+// }
+// 6. Count Vowels and Consonants
+// #include <stdio.h>
+
+// int main() {
+//     char str[100];
+//     int i, vowels = 0, consonants = 0;
+
+//     printf("Enter string: ");
+//     gets(str);
+
+//     for (i = 0; str[i] != '\0'; i++) {
+//         if (str[i]=='a'||str[i]=='e'||str[i]=='i'||str[i]=='o'||str[i]=='u'||
+//             str[i]=='A'||str[i]=='E'||str[i]=='I'||str[i]=='O'||str[i]=='U')
+//             vowels++;
+//         else if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z'))
+//             consonants++;
+//     }
+
+//     printf("Vowels = %d\nConsonants = %d", vowels, consonants);
+//     return 0;
+// }
+// 7. Convert Lowercase to Uppercase
+// #include <stdio.h>
+
+// int main() {
+//     char str[100];
+//     int i;
+
+//     printf("Enter string: ");
+//     gets(str);
+
+//     for (i = 0; str[i] != '\0'; i++) {
+//         if (str[i] >= 'a' && str[i] <= 'z') {
+//             str[i] = str[i] - 32;
+//         }
+//     }
+
+//     printf("Uppercase = %s", str);
+//     return 0;
+// }
