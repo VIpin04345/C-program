@@ -2976,21 +2976,21 @@ int main() {
 //     return 0;
 // }
 // 7. Convert Lowercase to Uppercase
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     char str[100];
-//     int i;
+int main() {
+    char str[100];
+    int i;
 
-//     printf("Enter string: ");
-//     gets(str);
+    printf("Enter string: ");
+    gets(str);
 
-//     for (i = 0; str[i] != '\0'; i++) {
-//         if (str[i] >= 'a' && str[i] <= 'z') {
-//             str[i] = str[i] - 32;
-//         }
-//     }
+    for (i = 0; str[i] != '\0'; i++) {
+        if (str[i] >= 'a' && str[i] <= 'z') {
+            str[i] = str[i] - 32;
+        }
+    }
 
-//     printf("Uppercase = %s", str);
-//     return 0;
-// }
+    printf("Uppercase = %s", str);
+    return 0;
+}
