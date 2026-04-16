@@ -2932,28 +2932,28 @@ int main() {
 //     return 0;
 // }
 // 5. String Compare (Without strcmp)
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     char str1[100], str2[100];
-//     int i = 0;
+int main() {
+    char str1[100], str2[100];
+    int i = 0;
 
-//     printf("Enter first string: ");
-//     gets(str1);
-//     printf("Enter second string: ");
-//     gets(str2);
+    printf("Enter first string: ");
+    gets(str1);
+    printf("Enter second string: ");
+    gets(str2);
 
-//     while (str1[i] == str2[i] && str1[i] != '\0') {
-//         i++;
-//     }
+    while (str1[i] == str2[i] && str1[i] != '\0') {
+        i++;
+    }
 
-//     if (str1[i] == '\0' && str2[i] == '\0')
-//         printf("Strings are equal");
-//     else
-//         printf("Strings are not equal");
+    if (str1[i] == '\0' && str2[i] == '\0')
+        printf("Strings are equal");
+    else
+        printf("Strings are not equal");
 
-//     return 0;
-// }
+    return 0;
+}
 // 6. Count Vowels and Consonants
 #include <stdio.h>
 
