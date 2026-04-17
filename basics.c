@@ -2884,6 +2884,25 @@ int main() {
     printf("Reverse = %s", rev);
     return 0;
 }
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char str[100], rev[100];
+    int i, j = 0;
+
+    printf("Enter string: ");
+    gets(str);
+
+    for (i = strlen(str) - 1; i >= 0; i--) {
+        rev[j++] = str[i];
+    }
+    rev[j] = '\0';
+
+    printf("Reverse = %s", rev);
+    return 0;
+}
 // 3. Palindrome Check
 #include <stdio.h>
 #include <string.h>
