@@ -1,172 +1,3 @@
-🔹 1. Hello World
-#include <stdio.h>
-int main() {
-    printf("Hello, World!");
-    return 0;
-}
-🔹 2. Even ya Odd check
-#include <stdio.h>
-int main() {
-    int n;
-    printf("Enter number: ");
-    scanf("%d", &n);
-
-    if(n % 2 == 0)
-        printf("Even");
-    else
-        printf("Odd");
-
-    return 0;
-}
-// 🔹 3. Factorial
-#include <stdio.h>
-int main() {
-    int n, i;
-    long long fact = 1;
-
-    printf("Enter number: ");
-    scanf("%d", &n);
-
-    for(i = 1; i <= n; i++) {
-        fact *= i;
-    }
-
-    printf("Factorial = %lld", fact);
-    return 0;
-}
-// 🔹 4. Prime Number Check
-#include <stdio.h>
-int main() {
-    int n, i, flag = 0;
-
-    printf("Enter number: ");
-    scanf("%d", &n);
-
-    for(i = 2; i <= n/2; i++) {
-        if(n % i == 0) {
-            flag = 1;
-            break;
-        }
-    }
-
-    if(n == 1)
-        printf("Not Prime");
-    else if(flag == 0)
-        printf("Prime");
-    else
-        printf("Not Prime");
-
-    return 0;
-}
-// 🔹 5. Fibonacci Series
-#include <stdio.h>
-int main() {
-    int n, a = 0, b = 1, next, i;
-
-    printf("Enter number of terms: ");
-    scanf("%d", &n);
-
-    for(i = 1; i <= n; i++) {
-        printf("%d ", a);
-        next = a + b;
-        a = b;
-        b = next;
-    }
-
-    return 0;
-}
-// 🔹 6. Reverse a Number
-#include <stdio.h>
-int main() {
-    int n, rev = 0, rem;
-
-    printf("Enter number: ");
-    scanf("%d", &n);
-
-    while(n != 0) {
-        rem = n % 10;
-        rev = rev * 10 + rem;
-        n /= 10;
-    }
-
-    printf("Reversed = %d", rev);
-    return 0;
-}
-// 🔹 7. Palindrome Number
-#include <stdio.h>
-int main() {
-    int n, original, rev = 0, rem;
-
-    printf("Enter number: ");
-    scanf("%d", &n);
-
-    original = n;
-
-    while(n != 0) {
-        rem = n % 10;
-        rev = rev * 10 + rem;
-        n /= 10;
-    }
-
-    if(original == rev)
-        printf("Palindrome");
-    else
-        printf("Not Palindrome");
-
-    return 0;
-}
-// 🔹 8. Sum of Digits
-// #include <stdio.h>
-// int main() {
-//     int n, sum = 0, rem;
-
-//     printf("Enter number: ");
-//     scanf("%d", &n);
-
-//     while(n != 0) {
-//         rem = n % 10;
-//         sum += rem;
-//         n /= 10;
-//     }
-
-//     printf("Sum = %d", sum);
-//     return 0;
-// }
-// 🔹 9. Swap without third variable
-// #include <stdio.h>
-// int main() {
-//     int a = 5, b = 10;
-
-//     a = a + b;
-//     b = a - b;
-//     a = a - b;
-
-//     printf("a = %d, b = %d", a, b);
-//     return 0;
-// }
-// 🔹 10. Array ka Maximum Element
-// #include <stdio.h>
-// int main() {
-//     int arr[5], i, max;
-
-//     printf("Enter 5 elements: ");
-//     for(i = 0; i < 5; i++) {
-//         scanf("%d", &arr[i]);
-//     }
-
-//     max = arr[0];
-
-//     for(i = 1; i < 5; i++) {
-//         if(arr[i] > max)
-//             max = arr[i];
-//     }
-
-//     printf("Max = %d", max);
-//     return 0;
-// }
-
-
-
 
 # include<stdio.h>
 # include<conio.h>
@@ -3308,3 +3139,174 @@ int main() {
     printf("Uppercase = %s", str);
     return 0;
 }
+
+
+
+🔹 1. Hello World
+#include <stdio.h>
+int main() {
+    printf("Hello, World!");
+    return 0;
+}
+🔹 2. Even ya Odd check
+#include <stdio.h>
+int main() {
+    int n;
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    if(n % 2 == 0)
+        printf("Even");
+    else
+        printf("Odd");
+
+    return 0;
+}
+// 🔹 3. Factorial
+#include <stdio.h>
+int main() {
+    int n, i;
+    long long fact = 1;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    for(i = 1; i <= n; i++) {
+        fact *= i;
+    }
+
+    printf("Factorial = %lld", fact);
+    return 0;
+}
+// 🔹 4. Prime Number Check
+#include <stdio.h>
+int main() {
+    int n, i, flag = 0;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    for(i = 2; i <= n/2; i++) {
+        if(n % i == 0) {
+            flag = 1;
+            break;
+        }
+    }
+
+    if(n == 1)
+        printf("Not Prime");
+    else if(flag == 0)
+        printf("Prime");
+    else
+        printf("Not Prime");
+
+    return 0;
+}
+// 🔹 5. Fibonacci Series
+#include <stdio.h>
+int main() {
+    int n, a = 0, b = 1, next, i;
+
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
+
+    for(i = 1; i <= n; i++) {
+        printf("%d ", a);
+        next = a + b;
+        a = b;
+        b = next;
+    }
+
+    return 0;
+}
+// 🔹 6. Reverse a Number
+#include <stdio.h>
+int main() {
+    int n, rev = 0, rem;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    while(n != 0) {
+        rem = n % 10;
+        rev = rev * 10 + rem;
+        n /= 10;
+    }
+
+    printf("Reversed = %d", rev);
+    return 0;
+}
+// 🔹 7. Palindrome Number
+#include <stdio.h>
+int main() {
+    int n, original, rev = 0, rem;
+
+    printf("Enter number: ");
+    scanf("%d", &n);
+
+    original = n;
+
+    while(n != 0) {
+        rem = n % 10;
+        rev = rev * 10 + rem;
+        n /= 10;
+    }
+
+    if(original == rev)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
+
+    return 0;
+}
+// 🔹 8. Sum of Digits
+// #include <stdio.h>
+// int main() {
+//     int n, sum = 0, rem;
+
+//     printf("Enter number: ");
+//     scanf("%d", &n);
+
+//     while(n != 0) {
+//         rem = n % 10;
+//         sum += rem;
+//         n /= 10;
+//     }
+
+//     printf("Sum = %d", sum);
+//     return 0;
+// }
+// 🔹 9. Swap without third variable
+// #include <stdio.h>
+// int main() {
+//     int a = 5, b = 10;
+
+//     a = a + b;
+//     b = a - b;
+//     a = a - b;
+
+//     printf("a = %d, b = %d", a, b);
+//     return 0;
+// }
+// 🔹 10. Array ka Maximum Element
+// #include <stdio.h>
+// int main() {
+//     int arr[5], i, max;
+
+//     printf("Enter 5 elements: ");
+//     for(i = 0; i < 5; i++) {
+//         scanf("%d", &arr[i]);
+//     }
+
+//     max = arr[0];
+
+//     for(i = 1; i < 5; i++) {
+//         if(arr[i] > max)
+//             max = arr[i];
+//     }
+
+//     printf("Max = %d", max);
+//     return 0;
+// }
+
+
