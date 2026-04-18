@@ -17,23 +17,23 @@ int main() {
         printf("Odd");
 
     return 0;
-// }
+}
 // 🔹 3. Factorial
-// #include <stdio.h>
-// int main() {
-//     int n, i;
-//     long long fact = 1;
+#include <stdio.h>
+int main() {
+    int n, i;
+    long long fact = 1;
 
-//     printf("Enter number: ");
-//     scanf("%d", &n);
+    printf("Enter number: ");
+    scanf("%d", &n);
 
-//     for(i = 1; i <= n; i++) {
-//         fact *= i;
-//     }
+    for(i = 1; i <= n; i++) {
+        fact *= i;
+    }
 
-//     printf("Factorial = %lld", fact);
-//     return 0;
-// }
+    printf("Factorial = %lld", fact);
+    return 0;
+}
 // 🔹 4. Prime Number Check
 // #include <stdio.h>
 // int main() {
