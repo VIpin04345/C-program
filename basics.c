@@ -59,22 +59,22 @@ int main() {
     return 0;
 }
 // 🔹 5. Fibonacci Series
-// #include <stdio.h>
-// int main() {
-//     int n, a = 0, b = 1, next, i;
+#include <stdio.h>
+int main() {
+    int n, a = 0, b = 1, next, i;
 
-//     printf("Enter number of terms: ");
-//     scanf("%d", &n);
+    printf("Enter number of terms: ");
+    scanf("%d", &n);
 
-//     for(i = 1; i <= n; i++) {
-//         printf("%d ", a);
-//         next = a + b;
-//         a = b;
-//         b = next;
-//     }
+    for(i = 1; i <= n; i++) {
+        printf("%d ", a);
+        next = a + b;
+        a = b;
+        b = next;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 // 🔹 6. Reverse a Number
 // #include <stdio.h>
 // int main() {
