@@ -93,28 +93,28 @@ int main() {
     return 0;
 }
 // 🔹 7. Palindrome Number
-// #include <stdio.h>
-// int main() {
-//     int n, original, rev = 0, rem;
+#include <stdio.h>
+int main() {
+    int n, original, rev = 0, rem;
 
-//     printf("Enter number: ");
-//     scanf("%d", &n);
+    printf("Enter number: ");
+    scanf("%d", &n);
 
-//     original = n;
+    original = n;
 
-//     while(n != 0) {
-//         rem = n % 10;
-//         rev = rev * 10 + rem;
-//         n /= 10;
-//     }
+    while(n != 0) {
+        rem = n % 10;
+        rev = rev * 10 + rem;
+        n /= 10;
+    }
 
-//     if(original == rev)
-//         printf("Palindrome");
-//     else
-//         printf("Not Palindrome");
+    if(original == rev)
+        printf("Palindrome");
+    else
+        printf("Not Palindrome");
 
-//     return 0;
-// }
+    return 0;
+}
 // 🔹 8. Sum of Digits
 // #include <stdio.h>
 // int main() {
