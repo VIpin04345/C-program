@@ -76,22 +76,22 @@ int main() {
     return 0;
 }
 // 🔹 6. Reverse a Number
-// #include <stdio.h>
-// int main() {
-//     int n, rev = 0, rem;
+#include <stdio.h>
+int main() {
+    int n, rev = 0, rem;
 
-//     printf("Enter number: ");
-//     scanf("%d", &n);
+    printf("Enter number: ");
+    scanf("%d", &n);
 
-//     while(n != 0) {
-//         rem = n % 10;
-//         rev = rev * 10 + rem;
-//         n /= 10;
-//     }
+    while(n != 0) {
+        rem = n % 10;
+        rev = rev * 10 + rem;
+        n /= 10;
+    }
 
-//     printf("Reversed = %d", rev);
-//     return 0;
-// }
+    printf("Reversed = %d", rev);
+    return 0;
+}
 // 🔹 7. Palindrome Number
 // #include <stdio.h>
 // int main() {
