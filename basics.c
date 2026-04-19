@@ -3277,17 +3277,17 @@ int main() {
     return 0;
 }
 // 🔹 9. Swap without third variable
-// #include <stdio.h>
-// int main() {
-//     int a = 5, b = 10;
+#include <stdio.h>
+int main() {
+    int a = 5, b = 10;
 
-//     a = a + b;
-//     b = a - b;
-//     a = a - b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
 
-//     printf("a = %d, b = %d", a, b);
-//     return 0;
-// }
+    printf("a = %d, b = %d", a, b);
+    return 0;
+}
 // 🔹 10. Array ka Maximum Element
 // #include <stdio.h>
 // int main() {
