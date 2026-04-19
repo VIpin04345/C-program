@@ -3260,22 +3260,22 @@ int main() {
     return 0;
 }
 // 🔹 8. Sum of Digits
-// #include <stdio.h>
-// int main() {
-//     int n, sum = 0, rem;
+#include <stdio.h>
+int main() {
+    int n, sum = 0, rem;
 
-//     printf("Enter number: ");
-//     scanf("%d", &n);
+    printf("Enter number: ");
+    scanf("%d", &n);
 
-//     while(n != 0) {
-//         rem = n % 10;
-//         sum += rem;
-//         n /= 10;
-//     }
+    while(n != 0) {
+        rem = n % 10;
+        sum += rem;
+        n /= 10;
+    }
 
-//     printf("Sum = %d", sum);
-//     return 0;
-// }
+    printf("Sum = %d", sum);
+    return 0;
+}
 // 🔹 9. Swap without third variable
 // #include <stdio.h>
 // int main() {
