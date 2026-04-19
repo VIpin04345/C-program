@@ -3288,6 +3288,18 @@ int main() {
     printf("a = %d, b = %d", a, b);
     return 0;
 }
+
+#include <stdio.h>
+int main() {
+    int a = 5, b = 10;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("a = %d, b = %d", a, b);
+    return 0;
+}
 // 🔹 10. Array ka Maximum Element
 #include <stdio.h>
 int main() {
