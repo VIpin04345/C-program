@@ -74,6 +74,13 @@ int main() {
             break;
         }
     }
+    
+    if(flag == 0 && n != 1)
+        printf("Prime");
+    else
+        printf("Not Prime");
+
+    return 0;
 
 #include<stdio.h>
 int main() {
@@ -87,12 +94,6 @@ int main() {
         }
     }
 
-
-
-
-
-    
-
     if(flag == 0 && n != 1)
         printf("Prime");
     else
@@ -100,6 +101,11 @@ int main() {
 
     return 0;
 }
+
+
+
+
+
 
 #include<stdio.h>
 int main() {
