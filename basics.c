@@ -6,6 +6,18 @@ int main() {
 
 #include<stdio.h>
 int main() {
+    printf("Hello World");
+    return 0;
+}
+
+
+
+
+
+
+
+#include<stdio.h>
+int main() {
     int a = 5, b = 10;
     printf("Sum = %d", a + b);
     return 0;
