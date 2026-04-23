@@ -44,3 +44,16 @@ Strong understanding of low-level programming concepts
 Improved problem-solving skills
 Deep knowledge of memory management & pointers
 Writing optimized and structured code
+
+# 📂 Folder Structure
+C-Programming/
+│
+├── Basics/
+├── Loops/
+├── Functions/
+├── Arrays/
+├── Strings/
+├── Pointers/
+├── Structures/
+├── File-Handling/
+└── Practice-Problems/
