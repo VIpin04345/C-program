@@ -57,3 +57,28 @@ C-Programming/
 ├── Structures/
 ├── File-Handling/
 └── Practice-Problems/
+
+⚙️ How to Run
+Install a C compiler (like GCC)
+
+Clone the repository:
+
+git clone https://github.com/your-username/your-repo-name.git
+
+Navigate to the folder:
+
+cd your-repo-name
+
+Compile and run:
+
+gcc program.c -o output
+./output
+🌟 Future Improvements
+Add more advanced problems
+Add data structures implementation in C
+Optimize existing solutions
+🙌 Connect With Me
+
+If you like this repository or want to collaborate, feel free to connect!
+
+⭐ Don't forget to star the repo if you found it useful!
