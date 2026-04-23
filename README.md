@@ -31,6 +31,7 @@ The goal of this repo is to build a strong foundation in programming and problem
 
 ✅ Dynamic Memory Allocation
 
+
 # 💻 Programs Included
 🔹 Pattern Programs
 🔹 Number-based Problems
@@ -38,3 +39,8 @@ The goal of this repo is to build a strong foundation in programming and problem
 🔹 Array-based Problems
 🔹 Pointer-based Problems
 🔹 File Handling Examples
+# 🎯 What I Learned
+Strong understanding of low-level programming concepts
+Improved problem-solving skills
+Deep knowledge of memory management & pointers
+Writing optimized and structured code
