@@ -30,3 +30,11 @@ The goal of this repo is to build a strong foundation in programming and problem
 ✅ File Handling
 
 ✅ Dynamic Memory Allocation
+
+# 💻 Programs Included
+🔹 Pattern Programs
+🔹 Number-based Problems
+🔹 String Manipulation Programs
+🔹 Array-based Problems
+🔹 Pointer-based Problems
+🔹 File Handling Examples
