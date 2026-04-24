@@ -58,10 +58,10 @@ C-Programming/
 ├── File-Handling/
 └── Practice-Problems/
 
-⚙️ How to Run
+#⚙️ How to Run
 Install a C compiler (like GCC)
 
-Clone the repository:
+#Clone the repository:
 
 git clone https://github.com/your-username/your-repo-name.git
 
