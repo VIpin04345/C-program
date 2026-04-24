@@ -79,6 +79,6 @@ Add data structures implementation in C
 Optimize existing solutions
 🙌 Connect With Me
 
-If you like this repository or want to collaborate, feel free to connect!
+# If you like this repository or want to collaborate, feel free to connect!
 
 ⭐ Don't forget to star the repo if you found it useful!
