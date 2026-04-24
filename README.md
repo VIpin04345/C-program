@@ -69,7 +69,7 @@ Navigate to the folder:
 
 cd your-repo-name
 
-Compile and run:
+#Compile and run:
 
 gcc program.c -o output
 ./output
