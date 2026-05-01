@@ -274,6 +274,16 @@ void main(){
 
 }
 
+# include<stdio.h>
+#include<conio.h>
+void main(){
+    int a;
+    printf("Enter a number :");
+    scanf("%d", &a);
+    printf("Square is : %d", a * a);
+
+}
+
 #include<stdio.h>
 #include<conio.h>
 void main(){
